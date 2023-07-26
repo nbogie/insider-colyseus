@@ -1,2 +1,2 @@
-import type { MyRoomState } from "../../../insider-server-colyseus/src/rooms/schema/MyRoomState";
+import type { MyRoomState } from "../../../server/src/rooms/schema/MyRoomState";
 export { MyRoomState };
