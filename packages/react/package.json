@@ -1,6 +1,6 @@
 {
-    "name": "matching-pairs-game-react-ts",
-    "version": "0.1.0",
+    "name": "insider-colyseus-react",
+    "version": "0.1.1",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.11.1",
@@ -25,6 +25,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
+        "build-all": "cd ../server; yarn; yarn build; cd ../react; yarn build; ls -l",
         "test": "react-scripts test --verbose",
         "eject": "react-scripts eject",
         "format": "prettier --write src"
